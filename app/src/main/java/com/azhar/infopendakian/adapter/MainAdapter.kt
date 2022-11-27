@@ -14,14 +14,6 @@ import com.azhar.infopendakian.activities.ListGunungActivity
 import com.azhar.infopendakian.model.ModelMain
 import kotlinx.android.synthetic.main.list_item_main.view.*
 
-/**
- * Created by Azhar Rivaldi on 01-06-2021
- * Youtube Channel : https://bit.ly/2PJMowZ
- * Github : https://github.com/AzharRivaldi
- * Twitter : https://twitter.com/azharrvldi_
- * Instagram : https://www.instagram.com/azhardvls_
- * Linkedin : https://www.linkedin.com/in/azhar-rivaldi
- */
 
 class MainAdapter(private val context: Context?, private val modelMain:
 List<ModelMain>) : RecyclerView.Adapter<MainAdapter.ViewHolder>() {
